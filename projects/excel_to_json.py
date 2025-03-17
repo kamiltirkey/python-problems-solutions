@@ -9,6 +9,6 @@ df = pd.read_excel('europe.xlsx')
 
 
 # Convert the dataframe to json
-df.to_json('europe.json', orient='records')
+df.to_json('europe.json', orient='records' , lines = True)
 
 
